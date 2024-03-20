@@ -1,0 +1,17 @@
+.base {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #f7f7f7;
+}
+
+.container-flex {
+  width: 70vw;
+  height: 90vh;
+  margin: 0 auto;
+}

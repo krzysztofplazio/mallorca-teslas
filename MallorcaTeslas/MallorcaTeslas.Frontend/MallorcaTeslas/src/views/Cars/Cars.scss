@@ -1,0 +1,15 @@
+.car-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35% !important;
+}
+
+.car-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    //justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

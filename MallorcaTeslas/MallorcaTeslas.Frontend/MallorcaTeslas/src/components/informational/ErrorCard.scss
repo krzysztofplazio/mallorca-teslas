@@ -1,0 +1,19 @@
+.error-card .MuiCard-root {
+    background-color: rgba(0,0,0,0) !important;
+    box-shadow: none !important;
+    .MuiCardContent-root {
+        display: flex;
+        align-items: center;
+        background-color: #ffb7b7;
+        border-radius: 5px;
+        border: 1px solid rgb(141, 27, 27);
+        padding: 6%;
+        padding-bottom: 6% !important;
+        margin: 4% 0;
+        color: #bb2124;
+        .MuiTypography-root {
+            font-family: 'Gabarito', sans-serif;
+            padding-left: 10px;
+        }
+    }
+}

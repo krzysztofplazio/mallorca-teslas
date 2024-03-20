@@ -1,0 +1,16 @@
+.car-info {
+    border: 1px solid #999;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.car-property {
+    padding: 2px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.bolded-column {
+    font-weight: 500;
+}

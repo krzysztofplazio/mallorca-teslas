@@ -1,0 +1,60 @@
+
+
+.container-login {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    border-radius: 10px;
+    width: 40%;
+    min-width: 340px;
+    min-height: 320px;
+    max-width: 25%;
+    padding: 2% 3%;
+    border: 1px solid rgb(97, 6, 10);
+    background-color:rgb(177, 52, 52);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    .MuiFormControl-root {
+        margin: 5% 0;
+        * {
+            color: rgba(255, 255, 255, 0.6);
+        }
+        .MuiInputBase-root {
+            &::before {
+                border-color: rgba(255, 255, 255, 0.6);
+            }
+        }
+        .Mui-focused {
+            color: rgb(255, 255, 255);
+        }
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    .login-button {
+        font-family: 'Gabarito', sans-serif;
+        font-size: 20px;
+        padding: 2%;
+        margin-top: 2%;
+        background-color: rgb(114, 114, 114) !important;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .logo {
+        h3 {
+            font-size: 30px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+
+}
