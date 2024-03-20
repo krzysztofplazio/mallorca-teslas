@@ -1,5 +1,7 @@
 # MallorcaTeslas
 
+MallorcaTeslas - web application for renting Teslas on Mallorca.
+
 ## Requirements
 
 - [React.ts](https://react.dev/learn/typescript) varsion 18.0.2
